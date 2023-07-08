@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - amankshihab
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - amankshihab/TENER-MALAYALAM
+  - amankshihab/tfCodeGenerator-playgroud
+  - amankshihab/cslabbot

@@ -1,80 +1,36 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Named Entity Recognition In Malayalam
+description: Named Entity Recognition In Malayalam
+img: assets/img/letter-ma.png
+importance: 1
+category: machine learning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project aims to address the tricky problem of Named Entity Recognition (NER) in Malayalam. I have written a detailed blog post about the modelling part <a href="/about/blog/2023/mal-ner/">here</a>. A streamlit app that shows a live demo of the model is hosted <a href="https://tener-malayalam-k2i4cw0x9c.streamlit.app/">here</a>.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="assets/video/2023-07-08 20-19-38.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Named Entity Recognition (NER) in Malayalam can be applied in various domains and innovative avenues. Here are some existing and new potential use cases:
 
+1. **Information Extraction and Search**: NER can be used to extract and categorize important information from large Malayalam text datasets. This information can then be utilized for efficient search and retrieval, enabling users to find specific entities or relevant content more effectively.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+2. **News Analysis and Summarization**: NER can aid in analyzing news articles and summarizing their content. By identifying named entities such as people, organizations, locations, and key events, NER can assist in generating concise summaries or extracting key information from news articles written in Malayalam.
 
+3. **Social Media Analysis**: NER can be applied to analyze social media content in Malayalam. It can help identify and categorize named entities in tweets, comments, and posts, providing insights into trending topics, user sentiment, and public opinion on various issues.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+4. **Machine Translation and Cross-lingual Information Retrieval**: NER can play a vital role in machine translation systems by correctly identifying and preserving named entities during the translation process. It can also assist in cross-lingual information retrieval by accurately matching and aligning named entities in different languages.
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+5. **Digital Content Tagging and Organization**: NER can be used to automatically tag and organize digital content in Malayalam, such as articles, blogs, and documents. By recognizing named entities, content can be classified into relevant categories, enabling efficient content management and retrieval.
+
+6. **E-commerce and Product Analysis**: NER can be applied to analyze product descriptions, user reviews, and other e-commerce data in Malayalam. By identifying named entities like product names, brands, and features, NER can assist in product categorization, sentiment analysis, and recommendation systems.
+
+7. **Malayalam Language Processing Tools and Resources**: Developing NER systems for Malayalam can contribute to the creation of language processing tools and resources specifically tailored for the language. This includes building annotated datasets, lexicons, and models that can benefit various NLP applications for Malayalam.
+
+8. **Digital Humanities and Cultural Preservation**: NER can aid in digital humanities research and cultural preservation efforts for Malayalam. By identifying and categorizing named entities in historical documents, literary works, and cultural texts, NER can facilitate analysis, preservation, and exploration of Malayalam heritage.
+
+These are just a few examples of the diverse applications and innovative avenues where NER in Malayalam can be employed. As language technology continues to advance, new possibilities and opportunities will emerge, enabling the effective utilization of NER for the benefit of Malayalam language processing and understanding.
